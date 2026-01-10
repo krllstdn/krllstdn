@@ -8,27 +8,35 @@ I'm a **Python Backend Developer** specializing in **Django** with a unique back
 
 **Professional Background:**
 - 💻 **Python Backend Developer** with expertise in Django
-- 🏥 **Medical Startup Experience** - developed TxMatching, Kidney Pair Donation software
-- 🎓 **Master's Student in Bioinformatics** - focusing on genomics research
-- 🫀 **Kidney Transplantation Specialist** - both software and research
+- 🎓 **Master's Student in Bioinformatics** - Thesis (work in progress): Deep Archetypal Analysis of gene expression of kidney donors. 
+- 🫀 **Bachelor Thesis** - Kidney Post-Transplant Survival Analysis
+- - 🏥 **Medical Startup Experience** - developed TxMatching, Kidney Pair Donation software
 
 ## 🔬 Featured Projects
 
-### 🧬 [GeneFinding](https://github.com/krllstdn/GeneFinding) - E.Coli Gene Finding with HMMs
+### 🦷 [Anomaly Detection](https://github.com/krllstdn/ae-anomaly-detection)
+**Autoencoder-based anomaly detection in medical imaging**
+- Developed unsupervised learning models that detect dental caries (cavities) in X-ray images
+- Achieved 97.4% accuracy using autoencoder architectures with visual heatmaps showing problem areas
+- Comparative study of AE architectures: Classical AE, Convolutional AE, and VAE architectures
+
+### 🧬 [Exon Search](https://github.com/krllstdn/ExonSearch)
+**Exon search with convolutional neural networks**
+- Advanced deep learning approach for identifying exon sequences in human genome
+- Utilizes CNNs for genomic sequence analysis
+- Best model achieves 78.3% accuracy on a balanced validation set
+
+### 🧬 [Protein Function Prediction](https://github.com/krllstdn/protein-function-prediction)
+**Predicting protein functions using machine learning**
+- The project explores protein function annotation using deep learning
+- Models: CNNs, Inception CNN, LSTMs, and Transformers—on UniProt sequence
+- Best Result: Inception CNN: AUC = 0.808, Accuracy = 0.561,
+
+### 🧬 [Gene Finding](https://github.com/krllstdn/GeneFinding) - E.Coli Gene Finding with HMMs
 **Advanced Hidden Markov Model for bacterial gene identification**
 - **42-state HMM architecture** specifically designed for E. coli gene structure
 - **Viterbi algorithm implementation** for optimal gene sequence prediction
-- **Comprehensive evaluation system** with Jaccard index and overlap metrics
-- **Biological accuracy:** Models start codons, coding regions, and stop codons
 - **Performance:** Achieved 74% Jaccard index on test sequences
-- **Tech Stack:** Python, NumPy, Advanced Algorithms, Bioinformatics
-
-### 🧬 [ExonSearch](https://github.com/krllstdn/ExonSearch)
-**Exon search with convolutional neural networks**
-- Advanced deep learning approach for identifying exon sequences
-- Utilizes CNNs for genomic sequence analysis
-- Part of bioinformatics research pipeline
-- **Tech Stack:** Python, TensorFlow/PyTorch, Jupyter
 
 ### 🎓 [BachelorProject](https://github.com/krllstdn/BachelorProject) - Kidney Transplant Survival Analysis
 **Survival prediction for kidney transplant patients**
@@ -37,13 +45,6 @@ I'm a **Python Backend Developer** specializing in **Django** with a unique back
 - **Frontend:** React with modern UI/UX
 - **Backend:** Django REST Framework
 - **ML Component:** Predictive modeling for patient survival
-- **Tech Stack:** Python, Django REST Framework, React, scikit-learn, survival analysis libraries
-
-### 🧬 [protein-function-prediction](https://github.com/krllstdn/protein-function-prediction)
-**Predicting protein functions using machine learning**
-- Advanced computational approach to protein analysis
-- Machine learning models for functional prediction
-- **Tech Stack:** Python, scikit-learn, pandas
 
 
 ## 🛠️ Technologies & Tools
@@ -54,7 +55,7 @@ tech_stack = {
         "framework": ["Django","Django REST Framework", "Flask", "FastAPI"]
         "language": "Python",
         "databases": ["PostgreSQL", "SQLite"],
-        "deployment": ["Docker", "AWS", "Linux servers"]
+        "deployment": ["Docker", "AWS", "Linux servers", "CI/CD", "GitLab/Github Actions"]
     },
     "frontend_development": {
         "framework": "React",
@@ -68,8 +69,8 @@ tech_stack = {
         "specialization": "Archetypal analysis, survival analysis"
     },
     "machine_learning": {
-        "frameworks": ["TensorFlow", "PyTorch", "scikit-learn"],
-        "applications": ["Survival modeling", "CNNs", "Gene expression analysis"],
+        "frameworks": ["TensorFlow", "scikit-learn"],
+        "applications": ["AEs", "CNNs", "Gene expression analysis"],
         "visualization": ["matplotlib", "plotly"]
     },
     "medical_domain": {
@@ -84,18 +85,11 @@ tech_stack = {
 
 ### 🧬 Master's Thesis: Archetypal Analysis of Kidney Donors
 **Advanced genomics research for transplantation medicine**
-- **Topic:** Archetypal analysis of kidney donors' gene expression
-- **Goal:** Identifying genetic patterns that influence transplant compatibility
-- **Methods:** Advanced statistical modeling and gene expression analysis
+- **Topic:** Archetypal analysis of kidney donors' gene expression (GE)
+- **Goal:** Identifying donor GE patterns that influence transplant outcomes
+- **Methods:** Deep Archetypal Analysis and gene expression analysis
 - **Impact:** Contributing to personalized transplantation medicine
 - **Status:** Currently in progress as part of Bioinformatics Master's program
-
-### 🔬 Research Interests
-- **Medical Bioinformatics** - Kidney transplantation & genomics
-- **Survival Analysis** - Predictive modeling for patient outcomes  
-- **Gene Expression Analysis** - Archetypal analysis and pattern recognition
-- **Full-Stack Medical Applications** - Django + React for healthcare
-- **Algorithm Development** - Optimization for organ matching systems
 
 ## 🌍 Let's Connect
 
@@ -109,9 +103,7 @@ tech_stack = {
 ## 🚀 What I'm Working On
 
 - 🧬 **Master's Thesis:** Archetypal analysis of kidney donors' gene expression
-- 🔬 **Research:** Advanced genomics methods for transplantation medicine
-- 💻 **Development:** Django-based medical applications and APIs
-- 📊 **Analysis:** Statistical modeling for clinical data and survival prediction
+- 💻 **Development:** Django-based applications and APIs
 
 ---
 
